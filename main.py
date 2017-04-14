@@ -23,13 +23,13 @@ else:
 
 # initialise the app:
 app = Flask(__name__)
-app.secret_key = r'a\xef\xd49AX\xea\xcbH\x8b\xc1\xab\x8d\x8f\xb1\x0c\x07@CKXo2\xb6'
+app.secret_key = r'its a secret'
 bootstrap = Bootstrap(app)
 
 oauth_session = requests.Session()
 
 # Add you API-KEY-HERE!
-API_KEY = "be18f1d3b5674727b073af7dd46f5a75"
+API_KEY = "apiKey"
 HEADERS = {"X-API-Key": API_KEY }
 
 # Open Manifest:
