@@ -9,6 +9,7 @@ from flask_bootstrap import Bootstrap
 import flaskwebserver.webserver as webserver
 import manifest
 import os
+from OpenSSL import SSL
 
 
 if os.path.isfile(r'C:\Users\Jake\Downloads\WinPython-64bit-3.5.3.0Qt5\notebooks\Manifest.content') == False:
