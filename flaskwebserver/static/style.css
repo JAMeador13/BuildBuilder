@@ -1,21 +1,35 @@
-.emblem-image {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.image-icon {
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-.image-background {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+body
+{
+background-color:#000;
 }
 
-.charInv-img{
-	max-width: 50%;
-	max-height: 50%;
-	background-color: red;
+h1
+{
+font-size:48px;
+margin-top:0;
+font-family:Arial, sans-serif;
+text-shadow:2px 0 15px #292929;
+letter-spacing:4px;
+text-decoration:none;
+color:#DDD;
+}
+
+#banner
+{
+width:500px;
+height:200px;
+text-align:center;
+background-image:url(http://i.imgur.com/MQHYB.jpg);
+background-repeat:no-repeat;
+border-radius:5px;
+margin:90px auto auto;
+padding:80px 0;
+}
+
+.lead
+{
+background-color:rgba(255,255,255,0.6);
+border-radius:3px;
+box-shadow:rgba(0,0,0,0.2) 0 1px 3px;
+font-family:Sintony, sans-serif;
 }
